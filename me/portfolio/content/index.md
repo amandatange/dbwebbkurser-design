@@ -2,10 +2,19 @@
 Title: Home
 Description: This is our index page.
 ---
+<div class="container" markdown=1>
 
-Home page
+Hej och välkommen!
 ==========================
 
-The source for this page is in `content/index.md`.
+<div class="presentation" markdown=1>
 
-This is a sample home page written in markdown with some frontmatter defined.
+![starry sky][stars]{.starry-sky}
+
+[stars]: https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Starry sky"
+
+Jag älskar när det är stjärnklart och en av mina drömmar i livet är att då se en himmel med såhär många stjärnor.
+
+</div>
+
+</div>
