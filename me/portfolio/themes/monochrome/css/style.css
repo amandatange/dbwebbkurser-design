@@ -96,6 +96,10 @@ p, td, th, li, dd {
     word-wrap: break-word;
 }
 
+p {
+    max-width: 80ch;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
@@ -109,7 +113,7 @@ img {
 .starry-sky {
     width: 80%;
     min-width: 250px;
-    margin: 0 auto;
+    margin: 1rem auto;
     box-shadow: .8rem .8rem #ad6c79;
 }
 
@@ -120,8 +124,7 @@ img {
 }
 
 .presentation p {
-    margin: 2rem auto;
-    font-size: .9rem;
+    margin: 1rem auto;
     line-height: 1.4;
 }
 
@@ -129,9 +132,10 @@ img {
     display: grid;
 }
 
+
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 4rem auto;
 }
 
 .logo {
